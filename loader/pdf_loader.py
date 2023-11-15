@@ -9,7 +9,7 @@ import nltk
 from configs.common_config import NLTK_DATA_PATH
 
 nltk.data.path = [NLTK_DATA_PATH] + nltk.data.path
-
+# 测试
 class UnstructuredPaddlePDFLoader(UnstructuredFileLoader):
     """Loader that uses unstructured to load image files, such as PNGs and JPGs."""
 
